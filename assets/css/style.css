@@ -15,6 +15,18 @@ body {
   font-style: normal;
 }
 /* ==============Dùng chung(common)============= */
+.break-all {
+  word-break: break-all;
+}
+.line-clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: var(--line-clamp, 1);
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.line-clamp.line-2 {
+  --line-clamp: 2;
+}
 .heading-lv2 {
   color: #171100;
   font-family: var(--font-heading);
@@ -293,6 +305,7 @@ a {
   object-fit: cover;
 }
 .popular .course-item {
+  flex: 1;
   border-radius: 12px;
   border: 1px solid #e2dfda;
   background: #fff;
@@ -348,7 +361,4 @@ a {
 }
 .popular .course-item .btn-book:hover {
   background: var(--primary-color);
-}
-.popular .course-item .title {
-  color: ;
 }
