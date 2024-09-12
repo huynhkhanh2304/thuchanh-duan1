@@ -368,9 +368,15 @@ a {
   padding: 96px 0;
   background: #2e2100;
 }
+.feedback-list {
+  display: flex;
+  overflow: hidden;
+}
 .feedback-item {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  flex-shrink: 0;
+  width: 100%;
 }
 .feedback-item .avatar {
   width: 72px;
@@ -410,6 +416,7 @@ a {
 }
 .feedback-item .content {
   width: 66%;
+  margin-left: auto;
 }
 .feedback-item blockquote {
   color: #fff;
