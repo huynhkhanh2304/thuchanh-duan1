@@ -112,7 +112,7 @@ a {
 .header .action {
   margin-left: 49px;
 }
-/* ==============================hero========================== */
+/* ================================================hero========================== */
 .hero {
   padding: 56px 0 65px;
   background: #fffcf4;
@@ -256,7 +256,7 @@ a {
 .hero .number-course {
   margin-left: 28px;
 }
-/* ==================================popular=============================== */
+/* ==================================popular========================================= */
 .popular {
   padding: 65px 0;
   margin-top: 135px;
@@ -362,7 +362,7 @@ a {
 .popular .course-item .btn-book:hover {
   background: var(--primary-color);
 }
-/* ==================feedback================ */
+/* ======================================feedback====================================== */
 .feedback {
   margin-top: 135px;
   padding: 96px 0;
@@ -423,4 +423,44 @@ a {
   font-size: 2.6rem;
   font-style: italic;
   line-height: 1.54;
+}
+/* ================================features============================== */
+.features {
+  margin-top: 135px;
+  padding: 65px 0;
+}
+.features .body {
+  display: flex;
+  justify-content: space-between;
+}
+.features .images {
+  display: flex;
+  gap: 30px;
+}
+.features .images img {
+  width: 270px;
+  height: 404px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+.features .images .lower {
+  margin-top: 34px;
+}
+.features .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 41%;
+}
+.features .desc {
+  margin-top: 16px;
+  color: #5f5b53;
+  font-size: 1.6rem;
+  line-height: 1.75;
+}
+.features .cta-btn {
+  margin-top: 32px;
+  width: 137px;
+  height: 50px;
+  background: var(--primary-color);
 }
